@@ -12,13 +12,13 @@ import hr.fer.zemris.java.custom.scripting.parser.SmartScriptParser;
  */
 public class Element {
 
-	/**
-	 * Returns a string representation of the element.
-	 * 
-	 * @return a string representation of the element
-	 */
-	public String asText() {
-		return "";
-	}
-	
+    /**
+     * Returns a string representation of the element.
+     *
+     * @return a string representation of the element
+     */
+    public String asText() {
+        return "";
+    }
+
 }

@@ -10,15 +10,15 @@ package hr.fer.zemris.java.tecaj.hw3.prob1;
  */
 public enum LexerState {
 
-	/**
-	 * The default Lexer state. Allows escape characters for words and delimits
-	 * on whitespaces and the letter-digit transition.
-	 */
-	BASIC,
+    /**
+     * The default Lexer state. Allows escape characters for words and delimits
+     * on whitespaces and the letter-digit transition.
+     */
+    BASIC,
 
-	/**
-	 * The extended state of Lexer does not allow escape characters, whitespaces
-	 * or the letter-digit transition to delimit the tokens.
-	 */
-	EXTENDED
+    /**
+     * The extended state of Lexer does not allow escape characters, whitespaces
+     * or the letter-digit transition to delimit the tokens.
+     */
+    EXTENDED
 }

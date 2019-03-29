@@ -9,39 +9,39 @@ package hr.fer.zemris.java.tecaj.hw3.prob1;
  * @author Mario Bobic
  */
 public class Token {
-	
-	/** Type of the token. */
-	private TokenType type;
-	/** Value that this token holds. */
-	private Object value;
-	
-	/**
-	 * Constructs an instance of Token with the given token type and value.
-	 * 
-	 * @param type type of the token
-	 * @param value value of the token
-	 */
-	public Token(TokenType type, Object value) {
-		this.type = type;
-		this.value = value;
-	}
-	
-	/**
-	 * Returns the type of this token.
-	 * 
-	 * @return the type of this token
-	 */
-	public TokenType getType() {
-		return type;
-	}
-	
-	/**
-	 * Returns the value of this token.
-	 * 
-	 * @return the value of this token
-	 */
-	public Object getValue() {
-		return value;
-	}
-	
+
+    /** Type of the token. */
+    private TokenType type;
+    /** Value that this token holds. */
+    private Object value;
+
+    /**
+     * Constructs an instance of Token with the given token type and value.
+     *
+     * @param type type of the token
+     * @param value value of the token
+     */
+    public Token(TokenType type, Object value) {
+        this.type = type;
+        this.value = value;
+    }
+
+    /**
+     * Returns the type of this token.
+     *
+     * @return the type of this token
+     */
+    public TokenType getType() {
+        return type;
+    }
+
+    /**
+     * Returns the value of this token.
+     *
+     * @return the value of this token
+     */
+    public Object getValue() {
+        return value;
+    }
+
 }
